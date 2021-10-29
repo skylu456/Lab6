@@ -33,7 +33,19 @@ public class AppTest
             {"masculino","18", "El valor de la prima anual de seguro de auto según su género y edad es: 2000 dólares"}
             ,{"masculino","24", "El valor de la prima anual de seguro de auto según su género y edad es: 2000 dólares"},
             {"masculino","25", "El valor de la prima anual de seguro de auto según su género y edad es: 1000 dólares"},
-            {"masculino","64", "El valor de la prima anual de seguro de auto según su género y edad es: 1000 dólares"}
+            {"masculino","64", "El valor de la prima anual de seguro de auto según su género y edad es: 1000 dólares"},
+            {"femenino","65", "El valor de la prima anual de seguro de auto según su género y edad es: 1500 dólares"},
+            {"femenino","18", "El valor de la prima anual de seguro de auto según su género y edad es: 500 dólares"},
+            {"femenino","24", "El valor de la prima anual de seguro de auto según su género y edad es: 500 dólares"},
+            {"femenino","25", "El valor de la prima anual de seguro de auto según su género y edad es: 500 dólares"},
+            {"femenino","64", "El valor de la prima anual de seguro de auto según su género y edad es: 500 dólares"},
+            {"masculino","-1", "La edad no puede ser un valor negativo"},
+            {"masculino","0", "La edad del cotizante debe ser mayor o igual a 18 años"},
+            {"femenino","0", "La edad del cotizante debe ser mayor o igual a 18 años"},
+            {"femenino","dieciocho", "Debe ingresar valores numéricos en el campo edad"},
+            {"masculino","18.5", "Debe ingresar valores numéricos enteros en el campo edad"}
+
+            
         };
     }
     @Before
